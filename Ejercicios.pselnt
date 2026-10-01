@@ -1,0 +1,109 @@
+Algoritmo Ejercicios
+	
+    Escribir "1.a"
+    x <- (2+3)*6
+    Escribir x
+	
+    Escribir "1.b"
+    x <- (12+6)/2*3
+    Escribir x
+	
+    Escribir "1.c"
+    x <- (2+3)/4
+    Escribir x
+	
+    Escribir "1.d"
+    x <- (2+3) MOD 4
+    Escribir x
+	
+    Escribir "1.g"
+    x <- 2*2+3-2*(5 MOD 2)
+    Escribir x
+	
+    Escribir "2.a"
+    a <- 6
+    b <- 2
+    c <- 3
+    resultado <- a-b+c
+    Escribir resultado
+	
+    Escribir "2.b"
+    resultado <- a*b/c
+    Escribir resultado
+	
+    Escribir "2.c"
+    resultado <- (a*c) MOD c
+    Escribir resultado
+	
+    Escribir "2.e"
+    resultado <- c^b+c*b
+    Escribir resultado
+	
+    Escribir "3.a"
+    a <- 3
+    b <- 0
+    c <- a+b
+    b <- a+b
+    a <- 3
+    Escribir a,b,c
+	
+    Escribir "3.b"
+    a <- 10
+    b <- 5
+    a <- b
+    b <- 5
+    Escribir a,b
+	
+    Escribir "3.c"
+    a <- 1
+    b <- 4
+    c <- a+b
+    d <- a-b
+    a <- c+2*b
+    b <- c+b
+    c <- a+b
+    d <- b+d
+    Escribir a,b,c,d
+	
+    Escribir "3.d"
+    v <- 5
+    a <- 3
+    b <- 5
+    c <- 0
+    c <- c+a
+    a <- a+c-2*b
+    b <- b+b
+    a <- c
+    b <- v
+    Escribir a,b,c
+	
+    Escribir "4.a"
+    m <- 10
+    n <- 2
+    resultado <- (m+n)/n
+    Escribir resultado
+	
+    Escribir "4.b"
+    m <- 10
+    n <- 4
+    p <- 2
+    r <- 3
+    s <- 1
+    resultado <- (m+n/p)/(p-r/s)
+    Escribir resultado
+	
+    Escribir "4.c"
+    m <- 10
+    p <- 6
+    q <- 2
+    resultado <- (m+4)/(p-q)
+    Escribir resultado
+	
+    Escribir "4.d"
+    c <- 10
+    r <- 5
+    t <- 4
+    resultado <- (c*r*t)/100
+    Escribir resultado
+	
+FinAlgoritmo
